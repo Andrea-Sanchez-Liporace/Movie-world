@@ -17,7 +17,7 @@ function buscar(evento) {
     //Guardo en busquedaRealizada lo que el usuario buscó
     const busquedaRealizada = form.get("busquedaUsuario");
     //Guardo en apiUrl la direccion de la api que voy a consultar
-    const apiUrl = "http://www.omdbapi.com";
+    const apiUrl = "https://www.omdbapi.com";
     API_KEY = "3c08695a";
 
     //Ver en la documentacion como hacer el fetch
