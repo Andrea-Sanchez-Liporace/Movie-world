@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+header {
+	background-color: #252c16;
+	text-align:center;
+}
+h1 {
+	font-family: 'Roboto';
+	font-size: 2em;
+	color:white;
+	margin: 0;
+	height: 2.5em;
+	padding: 1em 6em;
+}
+
+.navbar {
+	background-color: #252c16;
+}
+
+#posicion {
+    color: #c6a84b !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-link {
+    color:white !important;
+}
+
+h3{
+    margin: 1em auto;
+    text-align: center;
+    color: #252c16;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.alert-success {
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+.presentacion {
+    width: 90%;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+.presentacion p {
+    font-weight: bold;
+}
+.presentacion ul{
+    list-style: none;
+}
+.presentacion ul li {
+    line-height: 2.5em;
+    margin: 2em;
+}
+.presentacion > ul li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    margin: 0 20px 0;
+    color:#252c16;
+}
+.btn-color {
+	color:white;
+}
+.btn-color:hover {
+	color:#c6a84b ;
+}
+.btn-pelis {
+	background-color:#252c16;
+	color: white;
+    padding:.5em;
+    border-radius: 10px;
+
+}
+.btn-pelis:hover {
+	color:#c6a84b;
+    text-decoration: none !important;
+}
+
+.irBuscador{
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* buscador */
+
+.input-group {
+    width: 50%;
+    font-size: 1em;
+    padding-right: .5em;
+    margin: 0 auto;
+}
+label {
+    padding: 6px 10px;
+}
+#botonBusqueda {
+    border-radius: 15px;
+    margin: 0 1em;
+    font-size: 0.8em;
+    padding: 0 0.7em !important;
+    color:white;
+    background-color: #252c16 !important;
+}
+#botonBusqueda:hover {
+	color:#c6a84b ;
+}
+#respuesta {
+    width: 80%;
+    margin: 0 auto;
+}
+.card {
+    margin: 0 auto !important;
+}
+
+/* buscador */
+
+/* offline */
+
+/* offline */
+
+/* footer */
+footer {
+	width: 100%;
+	text-align:center;
+	background: #252c16;
+    padding-top: 1em;
+	padding-bottom: 0.2em;
+	margin-top: 3em;
+}
+footer ul li {
+	color: white;
+	background: #252c16;
+    line-height: 1.5em;
+	font-size: 0.9em;
+	list-style-type: none;
+}
+footer div {
+    margin: 1em;
+}
+/* footer */

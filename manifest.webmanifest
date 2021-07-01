@@ -1,12 +1,12 @@
 {
-    "theme_color": "#000",
-    "background_color": "#f69435",
+    "theme_color": "#000000",
+    "background_color": "#c6a84b",
     "display": "standalone",
     "scope": "/",
     "start_url": "/index.html",
-    "name": "Movie Worl",
+    "name": "Movie World",
     "short_name": "MoWo",
-    "description": "Busca tu pel\u00edcula favorita",
+    "description": "Sitio de busqueda informacion peliculas",
     "icons": [
         {
             "src": "img/icon-192x192.png",

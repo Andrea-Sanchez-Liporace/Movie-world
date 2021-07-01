@@ -32,9 +32,19 @@ function buscar(evento) {
 function consultaApi(infoPeli) {
     const resultadoConsulta = document.getElementById("respuesta");
     resultadoConsulta.innerHTML = `
-    <img src="${infoPeli.Poster}"/>
-    <h4>${infoPeli.Title}</h4>
-    <p>${infoPeli.Plot}</p>
-    <p>${infoPeli.imdbRating}</p>
+    <div class="card" style="max-width: 540px;">
+        <div class="row no-gutters">
+        <div class="col-md-7">
+            <img src="${infoPeli.Poster}" alt="Poster película" />
+        </div>
+        <div class="col-md-5">
+            <div class="card-body">
+            <h4 class="card-title">${infoPeli.Title}</h4>
+            <p class="card-text">${infoPeli.Plot}</p>
+            <p class="card-text"><small class="text-muted">Valoración: ${infoPeli.imdbRating}</small></p>
+            </div>
+        </div>
+        </div>
+    </div>
     `;
 }

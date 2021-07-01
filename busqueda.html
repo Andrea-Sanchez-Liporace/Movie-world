@@ -1,14 +1,12 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Sanchez Liporace Andrea - Dwn3a - PWA </title>
     <meta name="description" content="En Andy´s Weather App te facilitamos la busqueda de los datos del clima">
-
     <!--<link rel="shortcut icon" type="image/x-icon" href="">-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Manifest -->
     <link rel="manifest" href="manifest.webmanifest">
@@ -29,9 +27,9 @@
     <!-- Fuente montserrat para el sitio-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 		<header class="container-fluid">
 			<h1> Movie World </h1>
 			<div class="row">
@@ -46,10 +44,10 @@
 						<div class="collapse navbar-collapse" id="navegacion">
 							<ul class="navbar-nav text-center mx-auto">
 								<li class="nav-item">
-									<a class="nav-link px-3" id="posicion" href="#home">About us</a>
+									<a class="nav-link px-3" href="index.html">About us</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-3" href="busqueda.html">Buscador</a>
+									<a class="nav-link px-3" id="posicion" href="#busqueda">Buscador</a>
 								</li>
 							</ul>
 						</div>
@@ -58,54 +56,57 @@
     </header>
 
     <!-- Contenido -->
+
     <div>
-      <h3 id="home">About us</h3>
-        <div class="presentacion">
-          <p>Aplicación sencilla y conveniente para explorar detalles de películas.</p>
-          <p>Descubre nuevas películas partiendo de tu búsqueda</p>
-
-          <ul>
-            <li>Ver información de la peli que buscabas</li>
-            <li>Póster de la peli que buscabas</li>
-            <li>No se requieren cuentas</li>
-          </ul>
-        </div>
-
-        <!-- Botón a sección de búsqueda -->
-        <div class="irBuscador">
-          <a class="btn-pelis" href="busqueda.html#busqueda">Buscar Pelicula</a>
-        </div>
+        <h3 id="busqueda">Hacé tu búsqueda aquí</h3>
     </div>
+
+    <form class="input-group mb-3" id="formulario">
+        <!-- IMPUT PARA QUE EL USUARIO INGRESE EL NOMBRE DE LA PELICULA-->
+        <label for="busquedaUsuario">Nombre película: </label>
+        <input type="text" id="busquedaUsuario" name="busquedaUsuario" class="form-control" value="" required/>
+        <div class="input-group-append">
+            <!-- BOTON QUE DISPARA LA BUSQUEDA Y CONSUMO DE LAS DIFERENTES APIS QUE UTILIZA EL PROGRAMA -->
+            <button id="botonBusqueda" class="btn btn-outline-secondary" type="submit">Buscar</button>
+        </div>
+    </form>
+
+    <div id="respuesta">
+
+    </div>
+
     <!-- Fin contenido -->
+
     <!-- Footer -->
     <footer>
-      <div class="container">
-        <ul  class="row text-center mx-3 p-0">
-                <li class="col p-0">
-                  <a class="btn-floating btn-lg btn-fb btn-color" type="button" role="button" href="https://www.facebook.com/">
-                    <i class="fab fa-facebook-f fa-2x"></i>
-                  </a>
-                </li>
-                <li class="col p-0">
-                  <a class="btn-floating btn-lg btn-ins btn-color" type="button" role="button" href="https://www.instagram.com/?hl=es-la">
-                    <i class="fab fa-instagram fa-2x"></i>
-                  </a>
-                </li>
-                <li class="col p-0">
-                  <a class="btn-floating btn-lg btn-yt btn-color" type="button" role="button" href="https://www.youtube.com/">
-                    <i class="fab fa-youtube fa-2x"></i>
-                  </a>
-                </li>
-        </ul>
-      </div>
-        <ul>
-          <li> Sitio diseñado por Andrea Sanchez Liporace </li>
-          <li> Comisión: dwn3a </li>
-          <li> Turno: Noche </li>
-          <li> Año: 2021 </li>
-        </ul>
-      </footer>
-    <!-- Footer -->
+        <div class="container">
+          <ul  class="row text-center mx-3 p-0">
+                  <li class="col p-0">
+                    <a class="btn-floating btn-lg btn-fb btn-color" type="button" role="button" href="https://www.facebook.com/">
+                      <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                  </li>
+                  <li class="col p-0">
+                    <a class="btn-floating btn-lg btn-ins btn-color" type="button" role="button" href="https://www.instagram.com/?hl=es-la">
+                      <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                  </li>
+                  <li class="col p-0">
+                    <a class="btn-floating btn-lg btn-yt btn-color" type="button" role="button" href="https://www.youtube.com/">
+                      <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+                  </li>
+          </ul>
+        </div>
+          <ul>
+            <li> Sitio diseñado por Andrea Sanchez Liporace </li>
+            <li> Comisión: dwn3a </li>
+            <li> Turno: Noche </li>
+            <li> Año: 2021 </li>
+          </ul>
+        </footer>
+      <!-- Footer -->
+
     <script src="js/register-sw.js"></script>
     <!-- Optional JavaScript -->
     <script src="js/peliculas.js"></script>

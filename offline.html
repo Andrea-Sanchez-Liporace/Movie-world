@@ -4,9 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Andrea Sanchez Liporace, Cátedra PWA</title>
+    <title>Sanchez Liporace Andrea - Dwn3a - PWA </title>
     <meta name="description" content="En Andy´s Weather App te facilitamos la busqueda de los datos del clima">
-    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <!--<link rel="shortcut icon" type="image/x-icon" href="">-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.webmanifest">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,31 +22,64 @@
 
     <!-- Fuentes ICONO REDES -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <!-- Fuente clicker H1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Fuente montserrat para el sitio-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
-    <h1 class="alert-danger">Estoy Offline y el cache fallo!</h1>
-
+		<header class="container-fluid">
+			<h1> Movie World </h1>
+    </header>
     <!-- Contenido -->
 
-    <div>
-      <h2> Movie world - About us</h2>
-    </div>
-
-
-
-
-
-
-
-
-
-
+      <div>
+        <h3 id="home">No tenes conexión a internet</h3>
+          <div class="presentacion">
+            <p>Lo sentimos pero no podemos completar la conexión</p>
+            <div>
+              <img src="img/cable.jpg" alt=""/>
+          </div>
+      </div>
+      </div>
 
     <!-- Fin contenido -->
-
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <ul  class="row text-center mx-3 p-0">
+                <li class="col p-0">
+                  <a class="btn-floating btn-lg btn-fb btn-color" type="button" role="button" href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                  </a>
+                </li>
+                <li class="col p-0">
+                  <a class="btn-floating btn-lg btn-ins btn-color" type="button" role="button" href="https://www.instagram.com/?hl=es-la">
+                    <i class="fab fa-instagram fa-2x"></i>
+                  </a>
+                </li>
+                <li class="col p-0">
+                  <a class="btn-floating btn-lg btn-yt btn-color" type="button" role="button" href="https://www.youtube.com/">
+                    <i class="fab fa-youtube fa-2x"></i>
+                  </a>
+                </li>
+        </ul>
+      </div>
+        <ul>
+          <li> Sitio diseñado por Andrea Sanchez Liporace </li>
+          <li> Comisión: dwn3a </li>
+          <li> Turno: Noche </li>
+          <li> Año: 2021 </li>
+        </ul>
+      </footer>
+    <!-- Footer -->
     <script src="js/register-sw.js"></script>
     <!-- Optional JavaScript -->
+    <script src="js/peliculas.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
