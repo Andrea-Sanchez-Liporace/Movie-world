@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sanchez Liporace Andrea - Dwn3a - PWA </title>
+    <meta name="description" content="En Andy´s Weather App te facilitamos la busqueda de los datos del clima">
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css" />
+
+    <!-- Fuentes ICONO REDES -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <h1 class="alert-success">Estas online</h1>
+
+    <!-- Contenido -->
+
+    <div>
+      <h2>Movie world - About us</h2>
+    </div>
+
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, provident? Explicabo sint dicta incidunt? Corporis exercitationem atque debitis vero odit, dolores nulla ea tempora velit ex doloremque ducimus voluptatibus nam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, provident? Explicabo sint dicta incidunt? Corporis exercitationem atque debitis vero odit, dolores nulla ea tempora velit ex doloremque ducimus voluptatibus nam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, provident? Explicabo sint dicta incidunt? Corporis exercitationem atque debitis vero odit, dolores nulla ea tempora velit ex doloremque ducimus voluptatibus nam?</p>
+    </div>
+
+    <form class="input-group mb-3" id="formulario">
+      <h3>Hace tu búsqueda desde aquí</h3>
+      <!-- IMPUT PARA QUE EL USUARIO INGRESE EL NOMBRE DE LA PELICULA-->
+      <label for="busquedaUsuario">Nombre película: </label>
+      <input type="text" id="busquedaUsuario" name="busquedaUsuario" class="form-control" value="" required/>
+      <div class="input-group-append">
+          <!-- BOTON QUE DISPARA LA BUSQUEDA Y CONSUMO DE LAS DIFERENTES APIS QUE UTILIZA EL PROGRAMA -->
+          <button id="botonBusqueda" class="btn btn-outline-secondary" type="submit">Buscar</button>
+      </div>
+    </form>
+
+    <div id="respuesta">
+
+    </div>
+
+    <!-- Fin contenido -->
+
+
+    <script src="js/register-sw.js"></script>
+    <!-- Optional JavaScript -->
+    <script src="js/peliculas.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
