@@ -8,6 +8,7 @@ const precache = [
   './index.html',
   './offline.html',
   './css/estilo.css',
+  './favicon.ico',
 ];
 
 
