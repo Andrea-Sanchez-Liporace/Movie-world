@@ -6,4 +6,4 @@
 - Materia: PWA
 - Turno: Noche
 - Cuatrimestre: 3ro de la carrera
--	Agregar por favor el camino elegido. 
+-	Camino elegido: D - Api películas (http://www.omdbapi.com/)
