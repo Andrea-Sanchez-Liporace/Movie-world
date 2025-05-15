@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
 header {
 	background-color: #252c16;
 	text-align:center;
@@ -16,21 +23,20 @@ h1 {
 	height: 2.5em;
 	padding: 1em 6em;
 }
-
 .navbar {
 	background-color: #252c16;
 }
-
 #posicion {
     color: #c6a84b !important;
     font-weight: bold;
     text-decoration: underline;
 }
-
 .nav-link {
     color:white !important;
 }
-
+.main-container {
+  flex: 1;
+}
 h3{
     margin: 1em auto;
     text-align: center;
@@ -38,12 +44,10 @@ h3{
     font-weight: bold;
     text-decoration: underline;
 }
-
 .alert-success {
     margin-bottom: 0 !important;
     text-align: center;
 }
-
 .presentacion {
     width: 90%;
     margin: 1em auto;
@@ -84,14 +88,11 @@ h3{
 	color:#c6a84b;
     text-decoration: none !important;
 }
-
 .irBuscador{
     margin: 0 auto;
     width: 50%;
 }
-
 /* buscador */
-
 .input-group {
     width: 50%;
     font-size: 1em;
@@ -119,11 +120,9 @@ label {
 .card {
     margin: 0 auto !important;
 }
-
 /* buscador */
 
 /* offline */
-
 /* offline */
 
 /* footer */
@@ -131,7 +130,7 @@ footer {
 	width: 100%;
 	text-align:center;
 	background: #252c16;
-    padding-top: 1em;
+    	padding-top: 1em;
 	padding-bottom: 0.2em;
 	margin-top: 3em;
 	position:absolute;
